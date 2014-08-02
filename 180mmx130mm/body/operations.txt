@@ -1,0 +1,14 @@
+Machining operations
+
+0. small_center_drill
+1. large_center_drill
+2. drill_2-56_tap
+3. drill_4-40_tap
+4. drill_4-50_thru
+5. drill_10-32_tap
+6. pocket (0.25" cutter)
+ --------------------------
+ Secure part for removal
+ -------------------------
+7. boundary (0.25" cutter)
+

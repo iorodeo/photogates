@@ -589,7 +589,7 @@ LAYER
   2
 0
  70
-1
+0
  62
 7
   6
@@ -609,7 +609,7 @@ LAYER
   2
 cable_slot_center
  70
-1
+0
  62
 4
   6
@@ -619,7 +619,7 @@ LAYER
   2
 cable_slot_boundary
  70
-1
+0
  62
 4
   6
@@ -629,7 +629,7 @@ LAYER
   2
 bounding_box
  70
-1
+0
  62
 9
   6
@@ -639,7 +639,7 @@ LAYER
   2
 drill_4-40_tap
  70
-1
+0
  62
 2
   6
@@ -649,7 +649,7 @@ LAYER
   2
 drill_2-56_tap
  70
-1
+0
  62
 6
   6
@@ -659,7 +659,7 @@ LAYER
   2
 sensor_mount_lines
  70
-1
+0
  62
 5
   6
@@ -669,7 +669,7 @@ LAYER
   2
 drill_10-32_tap
  70
-1
+0
  62
 161
   6
@@ -679,7 +679,7 @@ LAYER
   2
 tube_clamp_pocket_left
  70
-1
+0
  62
 40
   6
@@ -689,7 +689,7 @@ LAYER
   2
 tube_clamp_pocket_right
  70
-1
+0
  62
 32
   6
@@ -699,7 +699,7 @@ LAYER
   2
 cover_plate_boundary
  70
-1
+0
  62
 200
   6
@@ -709,7 +709,7 @@ LAYER
   2
 drill_4-40_thru
  70
-1
+0
  62
 113
   6
@@ -2431,38 +2431,6 @@ outer_boundary
  51
 180.0
   0
-TEXT
-  8
-0
- 10
-1.377952755905512
- 20
-7.0866141732283463
- 30
-0.0
- 40
-0.0984252
-  1
-Notes:\P1.\~material\~0.25in\~ABS\P2.\~cable\~slot\~width\~=\~0.635cm\~(0.25in)\~\P3.\~cable\~slot\~depth\~=\~0.3175cm\~(0.125in)\P4.\~part\~boundary\~radius\~=\~0.635cm\~(0.25in)\P5.\~sensor\~mount\~drill\~=\~4-40\~tap\P\PDrawing\~Units\~(in)
- 50
-0.0
- 41
-1.0
-  7
-standard
- 71
-0
- 72
-0
- 11
-1.377952755905512
- 21
-7.0866141732283463
- 31
-0.0
- 73
-3
-  0
 LINE
   8
 outer_boundary
@@ -2662,6 +2630,38 @@ drill_10-32_tap
 0.0
  40
 0.0795
+  0
+TEXT
+  8
+0
+ 10
+1.377952755905512
+ 20
+7.0866141732283463
+ 30
+0.0
+ 40
+0.0984252
+  1
+Notes:\P1.\~material\~0.25in\~ABS\P2.\~cable\~slot\~width\~=\~0.635cm\~(0.25in)\~\P3.\~cable\~slot\~depth\~=\~0.3175cm\~(0.125in)\P4.\~part\~boundary\~radius\~=\~0.635cm\~(0.25in)\P5.\~sensor\~mount\~drill\~=\~4-40\~tap\P\PDrawing\~Units\~(in)\P\Psee\~operations.txt\~for\~machining\~instructions
+ 50
+0.0
+ 41
+1.0
+  7
+standard
+ 71
+0
+ 72
+0
+ 11
+1.377952755905512
+ 21
+7.0866141732283463
+ 31
+0.0
+ 73
+3
   0
 ENDSEC
   0

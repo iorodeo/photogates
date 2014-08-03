@@ -1,0 +1,10 @@
+
+Machining operations
+
+1. drill_0p25-20_cent  - center drilling for 0.25 through holes
+2. drill_0p25-20_thru  - through hole drilling for 0.25 fixture mounting holes
+
+Rotate part 90deg
+
+3. drill_4-40_cent     - center drilling for 4-40 tap holes
+4. drill_4-40_tap      - tap hole drilling for 4-40 part mount holes 

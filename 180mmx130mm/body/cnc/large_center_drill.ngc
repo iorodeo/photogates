@@ -15,7 +15,7 @@ F 25.0
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -35,7 +35,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X0.590551181102 Y6.69291338583 Z-0.05 R0.0 Q0.05
+G83 X0.590551181102 Y6.69291338583 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -49,7 +49,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -69,7 +69,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X0.590551181102 Y4.72440944882 Z-0.05 R0.0 Q0.05
+G83 X0.590551181102 Y4.72440944882 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -83,7 +83,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -103,7 +103,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X0.590551181102 Y1.96850393701 Z-0.05 R0.0 Q0.05
+G83 X0.590551181102 Y1.96850393701 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -117,7 +117,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -137,7 +137,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X4.52755905512 Y1.57480314961 Z-0.05 R0.0 Q0.05
+G83 X4.52755905512 Y1.57480314961 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -151,7 +151,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -171,7 +171,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X8.46456692913 Y1.96850393701 Z-0.05 R0.0 Q0.05
+G83 X8.46456692913 Y1.96850393701 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -185,7 +185,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -205,7 +205,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X8.46456692913 Y4.72440944882 Z-0.05 R0.0 Q0.05
+G83 X8.46456692913 Y4.72440944882 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -219,7 +219,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -239,7 +239,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X8.46456692913 Y6.69291338583 Z-0.05 R0.0 Q0.05
+G83 X8.46456692913 Y6.69291338583 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -253,7 +253,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -273,7 +273,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X7.08661417323 Y0.753700787402 Z-0.05 R0.0 Q0.05
+G83 X7.08661417323 Y0.753700787402 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -287,7 +287,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -307,7 +307,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X2.75590551181 Y0.753700787402 Z-0.05 R0.0 Q0.05
+G83 X2.75590551181 Y0.753700787402 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -321,7 +321,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -341,7 +341,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X9.8094488189 Y3.40708661417 Z-0.05 R0.0 Q0.05
+G83 X9.8094488189 Y3.40708661417 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -355,7 +355,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -375,7 +375,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X9.8094488189 Y5.37559055118 Z-0.05 R0.0 Q0.05
+G83 X9.8094488189 Y5.37559055118 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -389,7 +389,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -409,7 +409,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X9.8094488189 Y8.13149606299 Z-0.05 R0.0 Q0.05
+G83 X9.8094488189 Y8.13149606299 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -423,7 +423,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -443,7 +443,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X5.87244094488 Y8.52519685039 Z-0.05 R0.0 Q0.05
+G83 X5.87244094488 Y8.52519685039 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -457,7 +457,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -477,7 +477,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X1.93543307087 Y8.13149606299 Z-0.05 R0.0 Q0.05
+G83 X1.93543307087 Y8.13149606299 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -491,7 +491,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -511,7 +511,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X1.93543307087 Y5.37559055118 Z-0.05 R0.0 Q0.05
+G83 X1.93543307087 Y5.37559055118 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -525,7 +525,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -545,7 +545,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X1.93543307087 Y3.40708661417 Z-0.05 R0.0 Q0.05
+G83 X1.93543307087 Y3.40708661417 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -559,7 +559,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -579,7 +579,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X3.31338582677 Y9.3462992126 Z-0.05 R0.0 Q0.05
+G83 X3.31338582677 Y9.3462992126 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000
@@ -593,7 +593,7 @@ G0 Z0.50000000
 ; layers: ['drill_4-40_thru', 'drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.05
+; stopZ: -0.09
 ; startDwell: 2.0
 ; fileName: body_2x_in.dxf
 ; safeZ: 0.5
@@ -613,7 +613,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X7.64409448819 Y9.3462992126 Z-0.05 R0.0 Q0.05
+G83 X7.64409448819 Y9.3462992126 Z-0.09 R0.0 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.50000000

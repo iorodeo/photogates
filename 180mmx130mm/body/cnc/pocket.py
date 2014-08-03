@@ -1,6 +1,7 @@
 from __future__ import print_function
 import os 
 import sys
+import dxfgrabber
 from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
@@ -26,7 +27,10 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 
 
 # Tube clamp pockets
-for layer in ['tube_clamp_pocket_left', 'tube_clamp_pocket_right']:
+# Quick cheesy fix as this didn't work with arrayed parts
+dwg = dxfgrabber.readfile(fileName)
+tubeClampPocketLayers = [x.name for x in dwg.layers if 'tube_clamp_pocket' in x.name]
+for layer in tubeClampPocketLayers:
     param = {
             'fileName'       : fileName,
             'layers'         : [layer],

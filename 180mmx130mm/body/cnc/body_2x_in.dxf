@@ -9,43 +9,43 @@ $ACADVER
   1
 AC1009
   9
-$DIMASZ
- 40
-2.5
-  9
 $GRIDUNIT
  10
 0.0
  20
 0.0
   9
+$DIMASZ
+ 40
+2.5
+  9
 $DIMGAP
  40
 0.625
-  9
-$SPLINESEGS
- 70
-8
-  9
-$AUPREC
- 70
-2
   9
 $LUNITS
  70
 2
   9
+$AUPREC
+ 70
+2
+  9
+$SPLINESEGS
+ 70
+8
+  9
 $DIMEXO
  40
 0.625
   9
-$DIMTXT
- 40
-2.5
-  9
 $GRIDMODE
  70
 1
+  9
+$DIMTXT
+ 40
+2.5
   9
 $LUPREC
  70
@@ -55,17 +55,17 @@ $DIMSTYLE
   2
 Standard
   9
-$PLIMMAX
- 10
-21.0
- 20
-29.6999999999999993
-  9
 $PLIMMIN
  10
 0.0
  20
 0.0
+  9
+$PLIMMAX
+ 10
+21.0
+ 20
+29.6999999999999993
   9
 $DIMEXE
  40
@@ -583,7 +583,7 @@ TABLE
   2
 LAYER
  70
-13
+15
   0
 LAYER
   2
@@ -677,7 +677,7 @@ CONTINUOUS
   0
 LAYER
   2
-tube_clamp_pocket_left
+tube_clamp_pocket_left_0
  70
 0
  62
@@ -687,7 +687,7 @@ CONTINUOUS
   0
 LAYER
   2
-tube_clamp_pocket_right
+tube_clamp_pocket_right_0
  70
 0
  62
@@ -712,6 +712,26 @@ drill_4-40_thru
 0
  62
 113
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+tube_clamp_pocket_left_1
+ 70
+0
+ 62
+233
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+tube_clamp_pocket_right_1
+ 70
+0
+ 62
+180
   6
 CONTINUOUS
   0
@@ -2417,7 +2437,7 @@ outer_boundary
   0
 LINE
   8
-tube_clamp_pocket_left
+tube_clamp_pocket_left_0
  10
 2.5059100000000001
  20
@@ -2433,7 +2453,7 @@ tube_clamp_pocket_left
   0
 LINE
   8
-tube_clamp_pocket_right
+tube_clamp_pocket_right_0
  10
 6.8366100000000003
  20
@@ -2473,7 +2493,7 @@ drill_10-32_tap
   0
 LINE
   8
-tube_clamp_pocket_left
+tube_clamp_pocket_left_0
  10
 2.5059100000000001
  20
@@ -2489,7 +2509,7 @@ tube_clamp_pocket_left
   0
 LINE
   8
-tube_clamp_pocket_left
+tube_clamp_pocket_left_0
  10
 3.0059100000000001
  20
@@ -2505,7 +2525,7 @@ tube_clamp_pocket_left
   0
 LINE
   8
-tube_clamp_pocket_left
+tube_clamp_pocket_left_0
  10
 2.5059100000000001
  20
@@ -2521,7 +2541,7 @@ tube_clamp_pocket_left
   0
 LINE
   8
-tube_clamp_pocket_right
+tube_clamp_pocket_right_0
  10
 6.8366100000000003
  20
@@ -2537,7 +2557,7 @@ tube_clamp_pocket_right
   0
 LINE
   8
-tube_clamp_pocket_right
+tube_clamp_pocket_right_0
  10
 6.8366100000000003
  20
@@ -2553,7 +2573,7 @@ tube_clamp_pocket_right
   0
 LINE
   8
-tube_clamp_pocket_right
+tube_clamp_pocket_right_0
  10
 7.3366100000000003
  20
@@ -4087,38 +4107,6 @@ outer_boundary
  51
 360.0
   0
-LINE
-  8
-tube_clamp_pocket_left
- 10
-7.8940899999999994
- 20
-8.9188999999999972
- 30
-0.0
- 11
-7.3940899999999994
- 21
-8.9188999999999972
- 31
-0.0
-  0
-LINE
-  8
-tube_clamp_pocket_right
- 10
-3.5633899999999992
- 20
-8.9189000000000007
- 30
-0.0
- 11
-3.0633899999999992
- 21
-8.9189000000000007
- 31
-0.0
-  0
 CIRCLE
   8
 drill_10-32_tap
@@ -4145,55 +4133,23 @@ drill_10-32_tap
   0
 LINE
   8
-tube_clamp_pocket_left
+tube_clamp_pocket_left_1
  10
-7.8940899999999994
+3.5633899999999992
  20
-8.9188999999999972
+8.9189000000000007
  30
 0.0
  11
-7.8940899999999994
+3.0633899999999992
  21
-9.9749999999999979
+8.9189000000000007
  31
 0.0
   0
 LINE
   8
-tube_clamp_pocket_left
- 10
-7.3940899999999994
- 20
-8.9188999999999972
- 30
-0.0
- 11
-7.3940899999999994
- 21
-9.9749999999999979
- 31
-0.0
-  0
-LINE
-  8
-tube_clamp_pocket_left
- 10
-7.8940899999999994
- 20
-9.9749999999999979
- 30
-0.0
- 11
-7.3940899999999994
- 21
-9.9749999999999979
- 31
-0.0
-  0
-LINE
-  8
-tube_clamp_pocket_right
+tube_clamp_pocket_left_1
  10
 3.5633899999999992
  20
@@ -4209,7 +4165,7 @@ tube_clamp_pocket_right
   0
 LINE
   8
-tube_clamp_pocket_right
+tube_clamp_pocket_left_1
  10
 3.5633899999999992
  20
@@ -4225,7 +4181,7 @@ tube_clamp_pocket_right
   0
 LINE
   8
-tube_clamp_pocket_right
+tube_clamp_pocket_left_1
  10
 3.0633899999999992
  20
@@ -4236,6 +4192,70 @@ tube_clamp_pocket_right
 3.0633899999999992
  21
 8.9189000000000007
+ 31
+0.0
+  0
+LINE
+  8
+tube_clamp_pocket_right_1
+ 10
+7.8940899999999994
+ 20
+8.9188999999999972
+ 30
+0.0
+ 11
+7.3940899999999994
+ 21
+8.9188999999999972
+ 31
+0.0
+  0
+LINE
+  8
+tube_clamp_pocket_right_1
+ 10
+7.8940899999999994
+ 20
+8.9188999999999972
+ 30
+0.0
+ 11
+7.8940899999999994
+ 21
+9.9749999999999979
+ 31
+0.0
+  0
+LINE
+  8
+tube_clamp_pocket_right_1
+ 10
+7.3940899999999994
+ 20
+8.9188999999999972
+ 30
+0.0
+ 11
+7.3940899999999994
+ 21
+9.9749999999999979
+ 31
+0.0
+  0
+LINE
+  8
+tube_clamp_pocket_right_1
+ 10
+7.8940899999999994
+ 20
+9.9749999999999979
+ 30
+0.0
+ 11
+7.3940899999999994
+ 21
+9.9749999999999979
  31
 0.0
   0

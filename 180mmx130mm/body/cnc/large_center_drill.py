@@ -21,7 +21,7 @@ param = {
         'layers'      : ['drill_4-40_thru', 'drill_10-32_tap'],
         'dxfTypes'    : ['CIRCLE'],
         'startZ'      : 0.00,
-        'stopZ'       : -0.05,
+        'stopZ'       : -0.09,
         'safeZ'       : 0.5,
         'stepZ'       : 0.05,
         'startDwell'  : 2.0,

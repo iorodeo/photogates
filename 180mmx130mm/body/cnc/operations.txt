@@ -1,10 +1,30 @@
+
+
+Notes:
+
+* (IMPORTANT) Slow spindle speed, faster feedrate on drilling - as there was
+  some melting of the ABS.
+
+* (IMPORTANT) Need to fix issue with clamp pockets (RectPocketFromExtent).  Make
+  RectPocketFromExtent treat each connected component separately. 
+
+* Increase maxArcLen parameters on arc to line segment conversion as feedrate
+  on rounded corneres is slowing down.
+
+* Don't pack parts too closely - there was some chatter on thin edges between parts. 
+
+* Also, might want to use some tape in middle of ABS sheet to prevent chatter.
+
+* Probably don't need center drill operations - save some time. 
+
+
 Machining operations
 
-0. small_center_drill
+0. small_center_drill  
 1. large_center_drill
 2. drill_2-56_tap
 3. drill_4-40_tap
-4. drill_4-50_thru
+4. drill_4-40_thru
 5. drill_10-32_tap
 6. pocket (0.25" cutter)
  --------------------------

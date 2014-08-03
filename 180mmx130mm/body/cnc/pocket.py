@@ -1,8 +1,14 @@
+from __future__ import print_function
 import os 
+import sys
 from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
-fileName = 'body_in.dxf'
+if len(sys.argv) < 2:
+    fileName = 'body_in.dxf'
+else:
+    fileName = sys.argv[1]
+
 feedrate = 120.0
 startZ = 0.0
 safeZ = 0.5
@@ -31,7 +37,7 @@ for layer in ['tube_clamp_pocket_left', 'tube_clamp_pocket_right']:
             'overlapFinish'  : overlapFinish,
             'maxCutDepth'    : maxCutDepth,
             'toolDiam'       : toolDiam,
-            'cornerCut'      : True,
+            'cornerCut'      : False,
             'direction'      : direction,
             'startDwell'     : startDwell,
             }
@@ -58,8 +64,7 @@ prog.add(boundary)
 
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.End(),comment=True)
-print(prog)
 baseName, dummy = os.path.splitext(__file__)
 fileName = '{0}.ngc'.format(baseName)
-print(fileName)
+print('generating: {0}'.format(fileName))
 prog.write(fileName)

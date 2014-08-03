@@ -1,6 +1,13 @@
+from __future__ import print_function
 import os 
+import sys
 from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
+
+if len(sys.argv) < 2:
+    fileName = 'body_in.dxf'
+else:
+    fileName = sys.argv[1]
 
 feedrate = 120.0
 
@@ -10,7 +17,7 @@ prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.FeedRate(feedrate))
 
 param = {
-        'fileName'    : 'body_in.dxf',
+        'fileName'    : fileName,
         'layers'      : ['outer_boundary'],
         'depth'       : 0.26,
         'startZ'      : 0.0,
@@ -29,7 +36,7 @@ prog.add(boundary)
 
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.End(),comment=True)
-print(prog)
 baseName, dummy = os.path.splitext(__file__)
 fileName = '{0}.ngc'.format(baseName)
+print('generating: {0}'.format(fileName))
 prog.write(fileName)

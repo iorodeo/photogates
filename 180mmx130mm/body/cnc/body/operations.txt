@@ -27,8 +27,17 @@ Machining operations
 4. drill_4-40_thru
 5. drill_10-32_tap
 6. pocket (0.25" cutter)
- --------------------------
+ --------------------------------------
  Secure part for removal
- -------------------------
+ --------------------------------------
 7. boundary (0.25" cutter)
+ --------------------------------------
+ mount in drilling fixture
+ --------------------------------------
+8. drill_sensor_4-40_tap
+ --------------------------------------
+ flip, re-mount in drilling fixture
+ --------------------------------------
+9. drill_sensor_4-40_tap
+
 

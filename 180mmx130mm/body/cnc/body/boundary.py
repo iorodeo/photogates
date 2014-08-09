@@ -19,9 +19,9 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 param = {
         'fileName'    : fileName,
         'layers'      : ['outer_boundary'],
-        'depth'       : 0.26,
+        'depth'       : 0.27,
         'startZ'      : 0.0,
-        'safeZ'       : 0.5,
+        'safeZ'       : 0.3,
         'toolDiam'    : 0.25,
         'direction'   : 'ccw',
         'cutterComp'  : 'outside',

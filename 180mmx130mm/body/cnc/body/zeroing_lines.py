@@ -9,25 +9,27 @@ if len(sys.argv) < 2:
 else:
     fileName = sys.argv[1]
 
-feedrate = 25.0
+feedrate = 120.0
 
 prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.FeedRate(feedrate))
 
-param = { 
+param = {
         'fileName'    : fileName,
-        'layers'      : ['drill_4-40_thru', 'drill_10-32_tap'],
-        'dxfTypes'    : ['CIRCLE'],
-        'startZ'      : 0.00,
-        'stopZ'       : -0.10,
+        'layers'      : ['zeroing_lines'],
+        'depth'       : 0.18,
+        'startZ'      : 0.0,
         'safeZ'       : 0.3,
-        'stepZ'       : 0.03,
+        'toolDiam'    : 0.25,
+        'direction'   : 'ccw',
+        'cutterComp'  : None,
+        'maxCutDepth' : 0.04,
         'startDwell'  : 2.0,
         }
-drill = cnc_dxf.DxfDrill(param)
-prog.add(drill)
+boundary = cnc_dxf.DxfBoundary(param)
+prog.add(boundary)
 
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.End(),comment=True)

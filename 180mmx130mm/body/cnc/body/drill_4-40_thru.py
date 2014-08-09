@@ -21,9 +21,9 @@ param = {
         'layers'      : ['drill_4-40_thru'],
         'dxfTypes'    : ['CIRCLE'],
         'startZ'      : 0.00,
-        'stopZ'       : -0.25,
-        'safeZ'       : 0.5,
-        'stepZ'       : 0.05,
+        'stopZ'       : -0.27,
+        'safeZ'       : 0.3,
+        'stepZ'       : 0.03,
         'startDwell'  : 2.0,
         }
 drill = cnc_dxf.DxfDrill(param)

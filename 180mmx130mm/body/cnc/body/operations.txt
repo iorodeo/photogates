@@ -20,24 +20,25 @@ Notes:
 
 Machining operations
 
-0. small_center_drill  
-1. large_center_drill
-2. drill_2-56_tap
-3. drill_4-40_tap
-4. drill_4-40_thru
-5. drill_10-32_tap
-6. pocket (0.25" cutter)
+0. zeroing_lines
+1. small_center_drill  
+2. large_center_drill
+3. drill_2-56_tap
+4. drill_4-40_tap
+5. drill_4-40_thru
+6. drill_10-32_tap
+7. pocket (0.25" cutter)
  --------------------------------------
  Secure part for removal
  --------------------------------------
-7. boundary (0.25" cutter)
+8. boundary (0.25" cutter)
  --------------------------------------
  mount in drilling fixture
  --------------------------------------
-8. drill_sensor_4-40_tap
+9. drill_sensor_4-40_tap
  --------------------------------------
  flip, re-mount in drilling fixture
  --------------------------------------
-9. drill_sensor_4-40_tap
+10. drill_sensor_4-40_tap
 
 

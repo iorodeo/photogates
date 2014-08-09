@@ -1,7 +1,6 @@
 from __future__ import print_function
 import os 
 import sys
-import dxfgrabber
 from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
@@ -12,7 +11,7 @@ else:
 
 feedrate = 120.0
 startZ = 0.0
-safeZ = 0.5
+safeZ = 0.3
 toolDiam = 0.25 
 overlap = 0.5
 overlapFinish = 0.6
@@ -27,26 +26,22 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 
 
 # Tube clamp pockets
-# Quick cheesy fix as this didn't work with arrayed parts
-dwg = dxfgrabber.readfile(fileName)
-tubeClampPocketLayers = [x.name for x in dwg.layers if 'tube_clamp_pocket' in x.name]
-for layer in tubeClampPocketLayers:
-    param = {
-            'fileName'       : fileName,
-            'layers'         : [layer],
-            'depth'          : 0.05,
-            'startZ'         : startZ,
-            'safeZ'          : safeZ,
-            'overlap'        : overlap,
-            'overlapFinish'  : overlapFinish,
-            'maxCutDepth'    : maxCutDepth,
-            'toolDiam'       : toolDiam,
-            'cornerCut'      : False,
-            'direction'      : direction,
-            'startDwell'     : startDwell,
-            }
-    pocket = cnc_dxf.DxfRectPocketFromExtent(param)
-    prog.add(pocket)
+param = {
+        'fileName'       : fileName,
+        'layers'         : ['tube_clamp_pocket_left', 'tube_clamp_pocket_right'],
+        'depth'          : 0.06,
+        'startZ'         : startZ,
+        'safeZ'          : safeZ,
+        'overlap'        : overlap,
+        'overlapFinish'  : overlapFinish,
+        'maxCutDepth'    : maxCutDepth,
+        'toolDiam'       : toolDiam,
+        'cornerCut'      : False,
+        'direction'      : direction,
+        'startDwell'     : startDwell,
+        }
+pocket = cnc_dxf.DxfRectPocketFromExtent(param)
+prog.add(pocket)
 
 
 # Cable slot

@@ -20,13 +20,16 @@ Notes:
 
 Machining operations
 
-0. zeroing_lines
-1. small_center_drill  
-2. large_center_drill
-3. drill_2-56_tap
-4. drill_4-40_tap
-5. drill_4-40_thru
-6. drill_10-32_tap
+0.0 zeroing_lines
+1.0 (optional) small_center_drill  
+2.0 (optional) large_center_drill
+3.0 drill_2-56_tap
+3.5 drill_2-56_cham
+4.0 drill_4-40_tap
+4.5 drill_4-40_tap_cham
+5.0 drill_4-40_thru
+5.5 drill_4-40_thru_cham
+6.0 drill_10-32_tap
 7. pocket (0.25" cutter)
  --------------------------------------
  Secure part for removal

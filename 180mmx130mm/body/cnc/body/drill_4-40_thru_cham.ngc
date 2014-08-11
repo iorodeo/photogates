@@ -15,7 +15,7 @@ F 50.0
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -35,7 +35,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X0.884641181102 Y7.06791338583 Z-0.3 R0.0 Q0.02
+G83 X0.884641181102 Y7.06791338583 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -49,7 +49,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -69,7 +69,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X0.884641181102 Y5.09940944882 Z-0.3 R0.0 Q0.02
+G83 X0.884641181102 Y5.09940944882 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -83,7 +83,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -103,7 +103,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X0.884641181102 Y2.34350393701 Z-0.3 R0.0 Q0.02
+G83 X0.884641181102 Y2.34350393701 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -117,7 +117,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -137,7 +137,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X4.82164905512 Y1.94980314961 Z-0.3 R0.0 Q0.02
+G83 X4.82164905512 Y1.94980314961 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -151,7 +151,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -171,7 +171,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X8.75865692913 Y2.34350393701 Z-0.3 R0.0 Q0.02
+G83 X8.75865692913 Y2.34350393701 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -185,7 +185,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -205,7 +205,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X8.75865692913 Y5.09940944882 Z-0.3 R0.0 Q0.02
+G83 X8.75865692913 Y5.09940944882 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -219,7 +219,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -239,7 +239,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X8.75865692913 Y7.06791338583 Z-0.3 R0.0 Q0.02
+G83 X8.75865692913 Y7.06791338583 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -253,7 +253,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -273,7 +273,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X10.7666706128 Y4.24082284976 Z-0.3 R0.0 Q0.02
+G83 X10.7666706128 Y4.24082284976 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -287,7 +287,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -307,7 +307,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X10.7666706128 Y6.20932678677 Z-0.3 R0.0 Q0.02
+G83 X10.7666706128 Y6.20932678677 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -321,7 +321,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -341,7 +341,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X10.7666706128 Y8.96523229858 Z-0.3 R0.0 Q0.02
+G83 X10.7666706128 Y8.96523229858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -355,7 +355,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -375,7 +375,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X6.82966273874 Y9.35893308598 Z-0.3 R0.0 Q0.02
+G83 X6.82966273874 Y9.35893308598 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -389,7 +389,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -409,7 +409,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X2.89265486472 Y8.96523229858 Z-0.3 R0.0 Q0.02
+G83 X2.89265486472 Y8.96523229858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -423,7 +423,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -443,7 +443,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X2.89265486472 Y6.20932678677 Z-0.3 R0.0 Q0.02
+G83 X2.89265486472 Y6.20932678677 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -457,7 +457,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -477,7 +477,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X2.89265486472 Y4.24082284976 Z-0.3 R0.0 Q0.02
+G83 X2.89265486472 Y4.24082284976 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -491,7 +491,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -511,7 +511,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X12.4846411811 Y7.06791338583 Z-0.3 R0.0 Q0.02
+G83 X12.4846411811 Y7.06791338583 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -525,7 +525,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -545,7 +545,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X12.4846411811 Y5.09940944882 Z-0.3 R0.0 Q0.02
+G83 X12.4846411811 Y5.09940944882 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -559,7 +559,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -579,7 +579,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X12.4846411811 Y2.34350393701 Z-0.3 R0.0 Q0.02
+G83 X12.4846411811 Y2.34350393701 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -593,7 +593,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -613,7 +613,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X16.4216490551 Y1.94980314961 Z-0.3 R0.0 Q0.02
+G83 X16.4216490551 Y1.94980314961 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -627,7 +627,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -647,7 +647,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X20.3586569291 Y2.34350393701 Z-0.3 R0.0 Q0.02
+G83 X20.3586569291 Y2.34350393701 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -661,7 +661,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -681,7 +681,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X20.3586569291 Y5.09940944882 Z-0.3 R0.0 Q0.02
+G83 X20.3586569291 Y5.09940944882 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -695,7 +695,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -715,7 +715,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X20.3586569291 Y7.06791338583 Z-0.3 R0.0 Q0.02
+G83 X20.3586569291 Y7.06791338583 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -729,7 +729,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -749,7 +749,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X22.3666706128 Y4.24082284976 Z-0.3 R0.0 Q0.02
+G83 X22.3666706128 Y4.24082284976 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -763,7 +763,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -783,7 +783,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X22.3666706128 Y6.20932678677 Z-0.3 R0.0 Q0.02
+G83 X22.3666706128 Y6.20932678677 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -797,7 +797,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -817,7 +817,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X22.3666706128 Y8.96523229858 Z-0.3 R0.0 Q0.02
+G83 X22.3666706128 Y8.96523229858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -831,7 +831,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -851,7 +851,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X18.4296627387 Y9.35893308598 Z-0.3 R0.0 Q0.02
+G83 X18.4296627387 Y9.35893308598 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -865,7 +865,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -885,7 +885,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X14.4926548647 Y8.96523229858 Z-0.3 R0.0 Q0.02
+G83 X14.4926548647 Y8.96523229858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -899,7 +899,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -919,7 +919,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X14.4926548647 Y6.20932678677 Z-0.3 R0.0 Q0.02
+G83 X14.4926548647 Y6.20932678677 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -933,7 +933,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -953,7 +953,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X14.4926548647 Y4.24082284976 Z-0.3 R0.0 Q0.02
+G83 X14.4926548647 Y4.24082284976 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -967,7 +967,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -987,7 +987,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X23.7846411811 Y7.06791338583 Z-0.3 R0.0 Q0.02
+G83 X23.7846411811 Y7.06791338583 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1001,7 +1001,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1021,7 +1021,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X23.7846411811 Y5.09940944882 Z-0.3 R0.0 Q0.02
+G83 X23.7846411811 Y5.09940944882 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1035,7 +1035,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1055,7 +1055,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X23.7846411811 Y2.34350393701 Z-0.3 R0.0 Q0.02
+G83 X23.7846411811 Y2.34350393701 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1069,7 +1069,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1089,7 +1089,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X27.7216490551 Y1.94980314961 Z-0.3 R0.0 Q0.02
+G83 X27.7216490551 Y1.94980314961 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1103,7 +1103,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1123,7 +1123,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X31.6586569291 Y2.34350393701 Z-0.3 R0.0 Q0.02
+G83 X31.6586569291 Y2.34350393701 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1137,7 +1137,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1157,7 +1157,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X31.6586569291 Y5.09940944882 Z-0.3 R0.0 Q0.02
+G83 X31.6586569291 Y5.09940944882 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1171,7 +1171,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1191,7 +1191,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X31.6586569291 Y7.06791338583 Z-0.3 R0.0 Q0.02
+G83 X31.6586569291 Y7.06791338583 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1205,7 +1205,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1225,7 +1225,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X33.6666706128 Y4.24082284976 Z-0.3 R0.0 Q0.02
+G83 X33.6666706128 Y4.24082284976 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1239,7 +1239,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1259,7 +1259,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X33.6666706128 Y6.20932678677 Z-0.3 R0.0 Q0.02
+G83 X33.6666706128 Y6.20932678677 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1273,7 +1273,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1293,7 +1293,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X33.6666706128 Y8.96523229858 Z-0.3 R0.0 Q0.02
+G83 X33.6666706128 Y8.96523229858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1307,7 +1307,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1327,7 +1327,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X29.7296627387 Y9.35893308598 Z-0.3 R0.0 Q0.02
+G83 X29.7296627387 Y9.35893308598 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1341,7 +1341,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1361,7 +1361,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X25.7926548647 Y8.96523229858 Z-0.3 R0.0 Q0.02
+G83 X25.7926548647 Y8.96523229858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1375,7 +1375,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1395,7 +1395,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X25.7926548647 Y6.20932678677 Z-0.3 R0.0 Q0.02
+G83 X25.7926548647 Y6.20932678677 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1409,7 +1409,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1429,7 +1429,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X25.7926548647 Y4.24082284976 Z-0.3 R0.0 Q0.02
+G83 X25.7926548647 Y4.24082284976 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1443,7 +1443,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1463,7 +1463,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X35.3846411811 Y7.06791338583 Z-0.3 R0.0 Q0.02
+G83 X35.3846411811 Y7.06791338583 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1477,7 +1477,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1497,7 +1497,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X35.3846411811 Y5.09940944882 Z-0.3 R0.0 Q0.02
+G83 X35.3846411811 Y5.09940944882 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1511,7 +1511,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1531,7 +1531,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X35.3846411811 Y2.34350393701 Z-0.3 R0.0 Q0.02
+G83 X35.3846411811 Y2.34350393701 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1545,7 +1545,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1565,7 +1565,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X39.3216490551 Y1.94980314961 Z-0.3 R0.0 Q0.02
+G83 X39.3216490551 Y1.94980314961 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1579,7 +1579,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1599,7 +1599,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X43.2586569291 Y2.34350393701 Z-0.3 R0.0 Q0.02
+G83 X43.2586569291 Y2.34350393701 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1613,7 +1613,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1633,7 +1633,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X43.2586569291 Y5.09940944882 Z-0.3 R0.0 Q0.02
+G83 X43.2586569291 Y5.09940944882 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1647,7 +1647,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1667,7 +1667,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X43.2586569291 Y7.06791338583 Z-0.3 R0.0 Q0.02
+G83 X43.2586569291 Y7.06791338583 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1681,7 +1681,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1701,7 +1701,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X45.2666706128 Y4.24082284976 Z-0.3 R0.0 Q0.02
+G83 X45.2666706128 Y4.24082284976 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1715,7 +1715,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1735,7 +1735,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X45.2666706128 Y6.20932678677 Z-0.3 R0.0 Q0.02
+G83 X45.2666706128 Y6.20932678677 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1749,7 +1749,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1769,7 +1769,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X45.2666706128 Y8.96523229858 Z-0.3 R0.0 Q0.02
+G83 X45.2666706128 Y8.96523229858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1783,7 +1783,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1803,7 +1803,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X41.3296627387 Y9.35893308598 Z-0.3 R0.0 Q0.02
+G83 X41.3296627387 Y9.35893308598 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1817,7 +1817,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1837,7 +1837,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X37.3926548647 Y8.96523229858 Z-0.3 R0.0 Q0.02
+G83 X37.3926548647 Y8.96523229858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1851,7 +1851,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1871,7 +1871,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X37.3926548647 Y6.20932678677 Z-0.3 R0.0 Q0.02
+G83 X37.3926548647 Y6.20932678677 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1885,7 +1885,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1905,7 +1905,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X37.3926548647 Y4.24082284976 Z-0.3 R0.0 Q0.02
+G83 X37.3926548647 Y4.24082284976 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1919,7 +1919,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1939,7 +1939,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X0.884641181102 Y15.8994094488 Z-0.3 R0.0 Q0.02
+G83 X0.884641181102 Y15.8994094488 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1953,7 +1953,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -1973,7 +1973,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X0.884641181102 Y13.143503937 Z-0.3 R0.0 Q0.02
+G83 X0.884641181102 Y13.143503937 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1987,7 +1987,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2007,7 +2007,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X4.82164905512 Y12.7498031496 Z-0.3 R0.0 Q0.02
+G83 X4.82164905512 Y12.7498031496 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2021,7 +2021,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2041,7 +2041,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X8.75865692913 Y13.143503937 Z-0.3 R0.0 Q0.02
+G83 X8.75865692913 Y13.143503937 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2055,7 +2055,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2075,7 +2075,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X8.75865692913 Y15.8994094488 Z-0.3 R0.0 Q0.02
+G83 X8.75865692913 Y15.8994094488 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2089,7 +2089,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2109,7 +2109,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X8.75865692913 Y17.8679133858 Z-0.3 R0.0 Q0.02
+G83 X8.75865692913 Y17.8679133858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2123,7 +2123,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2143,7 +2143,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X10.7666706128 Y15.0408228498 Z-0.3 R0.0 Q0.02
+G83 X10.7666706128 Y15.0408228498 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2157,7 +2157,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2177,7 +2177,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X10.7666706128 Y17.0093267868 Z-0.3 R0.0 Q0.02
+G83 X10.7666706128 Y17.0093267868 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2191,7 +2191,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2211,7 +2211,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X10.7666706128 Y19.7652322986 Z-0.3 R0.0 Q0.02
+G83 X10.7666706128 Y19.7652322986 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2225,7 +2225,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2245,7 +2245,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X6.82966273874 Y20.158933086 Z-0.3 R0.0 Q0.02
+G83 X6.82966273874 Y20.158933086 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2259,7 +2259,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2279,7 +2279,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X2.89265486472 Y19.7652322986 Z-0.3 R0.0 Q0.02
+G83 X2.89265486472 Y19.7652322986 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2293,7 +2293,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2313,7 +2313,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X2.89265486472 Y17.0093267868 Z-0.3 R0.0 Q0.02
+G83 X2.89265486472 Y17.0093267868 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2327,7 +2327,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2347,7 +2347,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X2.89265486472 Y15.0408228498 Z-0.3 R0.0 Q0.02
+G83 X2.89265486472 Y15.0408228498 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2361,7 +2361,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2381,7 +2381,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X12.4846411811 Y17.8679133858 Z-0.3 R0.0 Q0.02
+G83 X12.4846411811 Y17.8679133858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2395,7 +2395,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2415,7 +2415,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X12.4846411811 Y15.8994094488 Z-0.3 R0.0 Q0.02
+G83 X12.4846411811 Y15.8994094488 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2429,7 +2429,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2449,7 +2449,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X12.4846411811 Y13.143503937 Z-0.3 R0.0 Q0.02
+G83 X12.4846411811 Y13.143503937 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2463,7 +2463,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2483,7 +2483,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X16.4216490551 Y12.7498031496 Z-0.3 R0.0 Q0.02
+G83 X16.4216490551 Y12.7498031496 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2497,7 +2497,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2517,7 +2517,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X20.3586569291 Y13.143503937 Z-0.3 R0.0 Q0.02
+G83 X20.3586569291 Y13.143503937 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2531,7 +2531,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2551,7 +2551,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X20.3586569291 Y15.8994094488 Z-0.3 R0.0 Q0.02
+G83 X20.3586569291 Y15.8994094488 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2565,7 +2565,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2585,7 +2585,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X20.3586569291 Y17.8679133858 Z-0.3 R0.0 Q0.02
+G83 X20.3586569291 Y17.8679133858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2599,7 +2599,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2619,7 +2619,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X22.3666706128 Y15.0408228498 Z-0.3 R0.0 Q0.02
+G83 X22.3666706128 Y15.0408228498 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2633,7 +2633,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2653,7 +2653,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X22.3666706128 Y17.0093267868 Z-0.3 R0.0 Q0.02
+G83 X22.3666706128 Y17.0093267868 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2667,7 +2667,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2687,7 +2687,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X22.3666706128 Y19.7652322986 Z-0.3 R0.0 Q0.02
+G83 X22.3666706128 Y19.7652322986 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2701,7 +2701,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2721,7 +2721,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X18.4296627387 Y20.158933086 Z-0.3 R0.0 Q0.02
+G83 X18.4296627387 Y20.158933086 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2735,7 +2735,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2755,7 +2755,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X14.4926548647 Y19.7652322986 Z-0.3 R0.0 Q0.02
+G83 X14.4926548647 Y19.7652322986 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2769,7 +2769,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2789,7 +2789,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X14.4926548647 Y17.0093267868 Z-0.3 R0.0 Q0.02
+G83 X14.4926548647 Y17.0093267868 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2803,7 +2803,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2823,7 +2823,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X14.4926548647 Y15.0408228498 Z-0.3 R0.0 Q0.02
+G83 X14.4926548647 Y15.0408228498 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2837,7 +2837,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2857,7 +2857,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X23.7846411811 Y17.8679133858 Z-0.3 R0.0 Q0.02
+G83 X23.7846411811 Y17.8679133858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2871,7 +2871,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2891,7 +2891,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X23.7846411811 Y15.8994094488 Z-0.3 R0.0 Q0.02
+G83 X23.7846411811 Y15.8994094488 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2905,7 +2905,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2925,7 +2925,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X23.7846411811 Y13.143503937 Z-0.3 R0.0 Q0.02
+G83 X23.7846411811 Y13.143503937 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2939,7 +2939,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2959,7 +2959,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X27.7216490551 Y12.7498031496 Z-0.3 R0.0 Q0.02
+G83 X27.7216490551 Y12.7498031496 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -2973,7 +2973,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -2993,7 +2993,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X31.6586569291 Y13.143503937 Z-0.3 R0.0 Q0.02
+G83 X31.6586569291 Y13.143503937 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3007,7 +3007,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3027,7 +3027,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X31.6586569291 Y15.8994094488 Z-0.3 R0.0 Q0.02
+G83 X31.6586569291 Y15.8994094488 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3041,7 +3041,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3061,7 +3061,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X31.6586569291 Y17.8679133858 Z-0.3 R0.0 Q0.02
+G83 X31.6586569291 Y17.8679133858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3075,7 +3075,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3095,7 +3095,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X33.6666706128 Y15.0408228498 Z-0.3 R0.0 Q0.02
+G83 X33.6666706128 Y15.0408228498 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3109,7 +3109,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3129,7 +3129,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X33.6666706128 Y17.0093267868 Z-0.3 R0.0 Q0.02
+G83 X33.6666706128 Y17.0093267868 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3143,7 +3143,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3163,7 +3163,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X33.6666706128 Y19.7652322986 Z-0.3 R0.0 Q0.02
+G83 X33.6666706128 Y19.7652322986 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3177,7 +3177,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3197,7 +3197,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X29.7296627387 Y20.158933086 Z-0.3 R0.0 Q0.02
+G83 X29.7296627387 Y20.158933086 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3211,7 +3211,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3231,7 +3231,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X25.7926548647 Y19.7652322986 Z-0.3 R0.0 Q0.02
+G83 X25.7926548647 Y19.7652322986 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3245,7 +3245,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3265,7 +3265,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X25.7926548647 Y17.0093267868 Z-0.3 R0.0 Q0.02
+G83 X25.7926548647 Y17.0093267868 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3279,7 +3279,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3299,7 +3299,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X25.7926548647 Y15.0408228498 Z-0.3 R0.0 Q0.02
+G83 X25.7926548647 Y15.0408228498 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3313,7 +3313,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3333,7 +3333,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X35.3846411811 Y17.8679133858 Z-0.3 R0.0 Q0.02
+G83 X35.3846411811 Y17.8679133858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3347,7 +3347,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3367,7 +3367,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X35.3846411811 Y15.8994094488 Z-0.3 R0.0 Q0.02
+G83 X35.3846411811 Y15.8994094488 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3381,7 +3381,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3401,7 +3401,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X35.3846411811 Y13.143503937 Z-0.3 R0.0 Q0.02
+G83 X35.3846411811 Y13.143503937 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3415,7 +3415,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3435,7 +3435,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X39.3216490551 Y12.7498031496 Z-0.3 R0.0 Q0.02
+G83 X39.3216490551 Y12.7498031496 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3449,7 +3449,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3469,7 +3469,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X43.2586569291 Y13.143503937 Z-0.3 R0.0 Q0.02
+G83 X43.2586569291 Y13.143503937 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3483,7 +3483,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3503,7 +3503,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X43.2586569291 Y15.8994094488 Z-0.3 R0.0 Q0.02
+G83 X43.2586569291 Y15.8994094488 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3517,7 +3517,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3537,7 +3537,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X43.2586569291 Y17.8679133858 Z-0.3 R0.0 Q0.02
+G83 X43.2586569291 Y17.8679133858 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3551,7 +3551,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3571,7 +3571,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X45.2666706128 Y15.0408228498 Z-0.3 R0.0 Q0.02
+G83 X45.2666706128 Y15.0408228498 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3585,7 +3585,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3605,7 +3605,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X45.2666706128 Y17.0093267868 Z-0.3 R0.0 Q0.02
+G83 X45.2666706128 Y17.0093267868 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3619,7 +3619,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3639,7 +3639,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X45.2666706128 Y19.7652322986 Z-0.3 R0.0 Q0.02
+G83 X45.2666706128 Y19.7652322986 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3653,7 +3653,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3673,7 +3673,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X41.3296627387 Y20.158933086 Z-0.3 R0.0 Q0.02
+G83 X41.3296627387 Y20.158933086 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3687,7 +3687,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3707,7 +3707,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X37.3926548647 Y19.7652322986 Z-0.3 R0.0 Q0.02
+G83 X37.3926548647 Y19.7652322986 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3721,7 +3721,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3741,7 +3741,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X37.3926548647 Y17.0093267868 Z-0.3 R0.0 Q0.02
+G83 X37.3926548647 Y17.0093267868 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3755,7 +3755,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3775,7 +3775,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X37.3926548647 Y15.0408228498 Z-0.3 R0.0 Q0.02
+G83 X37.3926548647 Y15.0408228498 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -3789,7 +3789,7 @@ G0 Z0.30000000
 ; layers: ['drill_4-40_thru']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.3
+; stopZ: -0.04
 ; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
@@ -3809,7 +3809,7 @@ G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X0.88464 Y17.8679 Z-0.3 R0.0 Q0.02
+G83 X0.88464 Y17.8679 Z-0.04 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000

@@ -4,7 +4,7 @@ import sys
 from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
-feedrate = 30.0
+feedrate = 50.0
 
 prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())

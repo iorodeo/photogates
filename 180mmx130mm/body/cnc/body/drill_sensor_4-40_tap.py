@@ -24,7 +24,7 @@ drill = cnc_dxf.DxfDrill(param)
 prog.add(drill)
 
 
-prog.add(gcode_cmd.RapidMotion(x=10.0,y=0.0,z=2.0))
+prog.add(gcode_cmd.RapidMotion(x=10.0,y=0.0,z=0.5))
 
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.End(),comment=True)

@@ -8,21 +8,21 @@ G90 (Set absolute distance mode)
 G20 (Set units to inches)
 G61 (Exact path mode)
 
-F 25.0
+F 50.0
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 7.38070417323
 ; centerY: 1.1287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -31,11 +31,11 @@ G0 Z0.30000000
 G0 X7.38070417 Y1.12870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X7.38070417323 Y1.1287007874 Z-0.27 R0.0 Q0.03
+G83 X7.38070417323 Y1.1287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -49,14 +49,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 3.04999551181
 ; centerY: 1.1287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -65,11 +65,11 @@ G0 Z0.30000000
 G0 X3.04999551 Y1.12870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X3.04999551181 Y1.1287007874 Z-0.27 R0.0 Q0.03
+G83 X3.04999551181 Y1.1287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -83,14 +83,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 4.27060762063
 ; centerY: 10.1800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -99,11 +99,11 @@ G0 Z0.30000000
 G0 X4.27060762 Y10.18003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X4.27060762063 Y10.1800354482 Z-0.27 R0.0 Q0.03
+G83 X4.27060762063 Y10.1800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -117,14 +117,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 8.60131628205
 ; centerY: 10.1800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -133,11 +133,11 @@ G0 Z0.30000000
 G0 X8.60131628 Y10.18003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X8.60131628205 Y10.1800354482 Z-0.27 R0.0 Q0.03
+G83 X8.60131628205 Y10.1800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -151,14 +151,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 18.9807041732
 ; centerY: 1.1287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -167,11 +167,11 @@ G0 Z0.30000000
 G0 X18.98070417 Y1.12870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X18.9807041732 Y1.1287007874 Z-0.27 R0.0 Q0.03
+G83 X18.9807041732 Y1.1287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -185,14 +185,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 14.6499955118
 ; centerY: 1.1287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -201,11 +201,11 @@ G0 Z0.30000000
 G0 X14.64999551 Y1.12870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X14.6499955118 Y1.1287007874 Z-0.27 R0.0 Q0.03
+G83 X14.6499955118 Y1.1287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -219,14 +219,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 15.8706076206
 ; centerY: 10.1800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -235,11 +235,11 @@ G0 Z0.30000000
 G0 X15.87060762 Y10.18003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X15.8706076206 Y10.1800354482 Z-0.27 R0.0 Q0.03
+G83 X15.8706076206 Y10.1800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -253,14 +253,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 20.201316282
 ; centerY: 10.1800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -269,11 +269,11 @@ G0 Z0.30000000
 G0 X20.20131628 Y10.18003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X20.201316282 Y10.1800354482 Z-0.27 R0.0 Q0.03
+G83 X20.201316282 Y10.1800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -287,14 +287,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 30.2807041732
 ; centerY: 1.1287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -303,11 +303,11 @@ G0 Z0.30000000
 G0 X30.28070417 Y1.12870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X30.2807041732 Y1.1287007874 Z-0.27 R0.0 Q0.03
+G83 X30.2807041732 Y1.1287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -321,14 +321,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 25.9499955118
 ; centerY: 1.1287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -337,11 +337,11 @@ G0 Z0.30000000
 G0 X25.94999551 Y1.12870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X25.9499955118 Y1.1287007874 Z-0.27 R0.0 Q0.03
+G83 X25.9499955118 Y1.1287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -355,14 +355,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 27.1706076206
 ; centerY: 10.1800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -371,11 +371,11 @@ G0 Z0.30000000
 G0 X27.17060762 Y10.18003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X27.1706076206 Y10.1800354482 Z-0.27 R0.0 Q0.03
+G83 X27.1706076206 Y10.1800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -389,14 +389,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 31.501316282
 ; centerY: 10.1800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -405,11 +405,11 @@ G0 Z0.30000000
 G0 X31.50131628 Y10.18003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X31.501316282 Y10.1800354482 Z-0.27 R0.0 Q0.03
+G83 X31.501316282 Y10.1800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -423,14 +423,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 41.8807041732
 ; centerY: 1.1287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -439,11 +439,11 @@ G0 Z0.30000000
 G0 X41.88070417 Y1.12870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X41.8807041732 Y1.1287007874 Z-0.27 R0.0 Q0.03
+G83 X41.8807041732 Y1.1287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -457,14 +457,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 37.5499955118
 ; centerY: 1.1287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -473,11 +473,11 @@ G0 Z0.30000000
 G0 X37.54999551 Y1.12870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X37.5499955118 Y1.1287007874 Z-0.27 R0.0 Q0.03
+G83 X37.5499955118 Y1.1287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -491,14 +491,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 38.7706076206
 ; centerY: 10.1800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -507,11 +507,11 @@ G0 Z0.30000000
 G0 X38.77060762 Y10.18003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X38.7706076206 Y10.1800354482 Z-0.27 R0.0 Q0.03
+G83 X38.7706076206 Y10.1800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -525,14 +525,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 43.101316282
 ; centerY: 10.1800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -541,11 +541,11 @@ G0 Z0.30000000
 G0 X43.10131628 Y10.18003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X43.101316282 Y10.1800354482 Z-0.27 R0.0 Q0.03
+G83 X43.101316282 Y10.1800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -559,14 +559,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 7.38070417323
 ; centerY: 11.9287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -575,11 +575,11 @@ G0 Z0.30000000
 G0 X7.38070417 Y11.92870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X7.38070417323 Y11.9287007874 Z-0.27 R0.0 Q0.03
+G83 X7.38070417323 Y11.9287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -593,14 +593,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 3.04999551181
 ; centerY: 11.9287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -609,11 +609,11 @@ G0 Z0.30000000
 G0 X3.04999551 Y11.92870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X3.04999551181 Y11.9287007874 Z-0.27 R0.0 Q0.03
+G83 X3.04999551181 Y11.9287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -627,14 +627,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 4.27060762063
 ; centerY: 20.9800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -643,11 +643,11 @@ G0 Z0.30000000
 G0 X4.27060762 Y20.98003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X4.27060762063 Y20.9800354482 Z-0.27 R0.0 Q0.03
+G83 X4.27060762063 Y20.9800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -661,14 +661,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 8.60131628205
 ; centerY: 20.9800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -677,11 +677,11 @@ G0 Z0.30000000
 G0 X8.60131628 Y20.98003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X8.60131628205 Y20.9800354482 Z-0.27 R0.0 Q0.03
+G83 X8.60131628205 Y20.9800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -695,14 +695,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 18.9807041732
 ; centerY: 11.9287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -711,11 +711,11 @@ G0 Z0.30000000
 G0 X18.98070417 Y11.92870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X18.9807041732 Y11.9287007874 Z-0.27 R0.0 Q0.03
+G83 X18.9807041732 Y11.9287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -729,14 +729,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 14.6499955118
 ; centerY: 11.9287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -745,11 +745,11 @@ G0 Z0.30000000
 G0 X14.64999551 Y11.92870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X14.6499955118 Y11.9287007874 Z-0.27 R0.0 Q0.03
+G83 X14.6499955118 Y11.9287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -763,14 +763,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 15.8706076206
 ; centerY: 20.9800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -779,11 +779,11 @@ G0 Z0.30000000
 G0 X15.87060762 Y20.98003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X15.8706076206 Y20.9800354482 Z-0.27 R0.0 Q0.03
+G83 X15.8706076206 Y20.9800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -797,14 +797,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 20.201316282
 ; centerY: 20.9800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -813,11 +813,11 @@ G0 Z0.30000000
 G0 X20.20131628 Y20.98003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X20.201316282 Y20.9800354482 Z-0.27 R0.0 Q0.03
+G83 X20.201316282 Y20.9800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -831,14 +831,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 30.2807041732
 ; centerY: 11.9287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -847,11 +847,11 @@ G0 Z0.30000000
 G0 X30.28070417 Y11.92870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X30.2807041732 Y11.9287007874 Z-0.27 R0.0 Q0.03
+G83 X30.2807041732 Y11.9287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -865,14 +865,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 25.9499955118
 ; centerY: 11.9287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -881,11 +881,11 @@ G0 Z0.30000000
 G0 X25.94999551 Y11.92870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X25.9499955118 Y11.9287007874 Z-0.27 R0.0 Q0.03
+G83 X25.9499955118 Y11.9287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -899,14 +899,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 27.1706076206
 ; centerY: 20.9800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -915,11 +915,11 @@ G0 Z0.30000000
 G0 X27.17060762 Y20.98003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X27.1706076206 Y20.9800354482 Z-0.27 R0.0 Q0.03
+G83 X27.1706076206 Y20.9800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -933,14 +933,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 31.501316282
 ; centerY: 20.9800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -949,11 +949,11 @@ G0 Z0.30000000
 G0 X31.50131628 Y20.98003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X31.501316282 Y20.9800354482 Z-0.27 R0.0 Q0.03
+G83 X31.501316282 Y20.9800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -967,14 +967,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 41.8807041732
 ; centerY: 11.9287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -983,11 +983,11 @@ G0 Z0.30000000
 G0 X41.88070417 Y11.92870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X41.8807041732 Y11.9287007874 Z-0.27 R0.0 Q0.03
+G83 X41.8807041732 Y11.9287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1001,14 +1001,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 37.5499955118
 ; centerY: 11.9287007874
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1017,11 +1017,11 @@ G0 Z0.30000000
 G0 X37.54999551 Y11.92870079
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X37.5499955118 Y11.9287007874 Z-0.27 R0.0 Q0.03
+G83 X37.5499955118 Y11.9287007874 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1035,14 +1035,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 38.7706076206
 ; centerY: 20.9800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1051,11 +1051,11 @@ G0 Z0.30000000
 G0 X38.77060762 Y20.98003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X38.7706076206 Y20.9800354482 Z-0.27 R0.0 Q0.03
+G83 X38.7706076206 Y20.9800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1069,14 +1069,14 @@ G0 Z0.30000000
 ; layers: ['drill_10-32_tap']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.27
-; startDwell: 2.0
+; stopZ: -0.3
+; startDwell: 0.1
 ; fileName: body_array_48x24.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
 ; centerX: 43.101316282
 ; centerY: 20.9800354482
-; stepZ: 0.03
+; stepZ: 0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -1085,11 +1085,11 @@ G0 Z0.30000000
 G0 X43.10131628 Y20.98003545
 
 ; PeckDrill: dwell
-G4 P2.0
+G4 P0.1
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X43.101316282 Y20.9800354482 Z-0.27 R0.0 Q0.03
+G83 X43.101316282 Y20.9800354482 Z-0.3 R0.0 Q0.02
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000

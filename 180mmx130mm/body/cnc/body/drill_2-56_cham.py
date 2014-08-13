@@ -9,34 +9,25 @@ if len(sys.argv) < 2:
 else:
     fileName = sys.argv[1]
 
-feedrate = 120.0
+feedrate = 40.0
 
 prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.FeedRate(feedrate))
 
-prog.add(gcode_cmd.PathBlendMode(P=0.01))
-
-param = {
+param = { 
         'fileName'    : fileName,
-        'layers'      : ['outer_boundary'],
-        'depth'       : 0.3,
-        'startZ'      : 0.0,
+        'layers'      : ['drill_2-56_tap'],
+        'dxfTypes'    : ['CIRCLE'],
+        'startZ'      : 0.00,
+        'stopZ'       : -0.04,
         'safeZ'       : 0.3,
-        'toolDiam'    : 0.25,
-        'direction'   : 'ccw',
-        'cutterComp'  : 'outside',
-        'maxCutDepth' : 0.04,
-        'startDwell'  : 0.5,
-        'startCond'   : 'minX',
-        'maxArcLen'   : 0.60e-2, 
-        'ptEquivTol'  : 1.0e-5,
+        'stepZ'       : 0.02,
+        'startDwell'  : 0.1,
         }
-boundary = cnc_dxf.DxfBoundary(param)
-prog.add(boundary)
-
-prog.add(gcode_cmd.ExactPathMode())
+drill = cnc_dxf.DxfDrill(param)
+prog.add(drill)
 
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.End(),comment=True)

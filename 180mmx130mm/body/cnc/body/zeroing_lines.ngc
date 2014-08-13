@@ -25,7 +25,7 @@ F 120.0
 ; depth: 0.18
 ; dxfTypes: ['LINE', 'ARC']
 ; closed: False
-; ptEquivTol: 1e-06
+; ptEquivTol: 1e-05
 ; convertArcs: True
 ; toolDiam: 0.25
 ; pointList: too big

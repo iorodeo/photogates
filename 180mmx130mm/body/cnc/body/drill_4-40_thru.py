@@ -9,7 +9,7 @@ if len(sys.argv) < 2:
 else:
     fileName = sys.argv[1]
 
-feedrate = 25.0
+feedrate = 50.0
 
 prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())
@@ -21,10 +21,10 @@ param = {
         'layers'      : ['drill_4-40_thru'],
         'dxfTypes'    : ['CIRCLE'],
         'startZ'      : 0.00,
-        'stopZ'       : -0.27,
+        'stopZ'       : -0.3,
         'safeZ'       : 0.3,
-        'stepZ'       : 0.03,
-        'startDwell'  : 2.0,
+        'stepZ'       : 0.02,
+        'startDwell'  : 0.1,
         }
 drill = cnc_dxf.DxfDrill(param)
 prog.add(drill)

@@ -17,7 +17,7 @@ overlap = 0.5
 overlapFinish = 0.6
 maxCutDepth = 0.04
 direction = 'ccw'
-startDwell = 2.0
+startDwell = 0.5
 
 prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())

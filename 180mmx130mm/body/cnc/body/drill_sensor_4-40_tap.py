@@ -4,7 +4,7 @@ import sys
 from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
-feedrate = 30.0
+feedrate = 50.0
 
 prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())
@@ -22,6 +22,9 @@ param = {
         }
 drill = cnc_dxf.DxfDrill(param)
 prog.add(drill)
+
+
+prog.add(gcode_cmd.RapidMotion(x=10.0,y=0.0,z=0.5))
 
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.End(),comment=True)
